@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from ypsiplanti.plants import models
+from plants import models
 
 
 @admin.register(models.Location)

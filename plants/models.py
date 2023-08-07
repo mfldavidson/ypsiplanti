@@ -40,6 +40,7 @@ class ActionRecord:
     plant = models.ForeignKey(to=Plant, on_delete=models.CASCADE)
     gardener = models.ForeignKey(to=User, on_delete=models.PROTECT)
 
+
 class WaterRecord(ActionRecord):
     pass
 
